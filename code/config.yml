@@ -1,0 +1,25 @@
+# Training and environment settings
+seeds: [42, 123, 456, 789, 1011, 1234, 2345, 3456, 4567, 5678]
+n_patients: 500
+max_steps_per_episode: 50
+
+# Dataset paths
+datasets:
+  diabetes:
+    train: "data/diabetes_train.csv"
+    test: "data/diabetes_test.csv"
+  hypertension:
+    train: "data/hypertension_train.csv"
+    test: "data/hypertension_test.csv"
+
+# Directories
+results_dir: "results"
+subdirs:
+  rewards: "rewards"
+  health_metrics: "health_metrics"
+  comparisons: "comparisons"
+  sl_performance: "sl_performance"
+
+# RL Training
+timesteps: 100000
+eval_episodes: 30
