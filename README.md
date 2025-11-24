@@ -31,8 +31,8 @@ This project presents a hybrid **Reinforcement Learning (supported with Supervis
 
 # Project Context
 
-This project is part of the **Final Project for Machine and Reinforcement Learning course** at Fasilkom UI.  
-The goal is to explore how supervised learning can enhance reinforcement learning models in clinical decision-making.
+This project is the **Final Project for Machine and Reinforcement Learning course** at Fasilkom UI.  
+The goal of this project is to evaluate reinforcement learning models for personalized diabetes and hypertension treatment, and to investigate how supervised learning guidance can improve their clinical performance.
 
 ---
 
@@ -81,15 +81,16 @@ It includes:
 ## Clone the repository
 ```bash
 git clone <repository-url>
-cd diabetes_hypertension_treatment_with_rl
+cd Reinforecement_learning-for_Diabetes-and-Hypertension-Treatment
 ```
 
 ## Create & Activate Environment
 
 Run the following commands:
-
+```bash
 conda env create -f code/requirements.yml
 conda activate project-m4
+```
 
 The environment includes:
 - PyTorch
@@ -153,22 +154,22 @@ eval_episodes: 30
 # Output Files (code/results/)
 
 ## Reward Plots
-- diabetes_rewards_with_sl.png  
-- diabetes_rewards_without_sl.png  
-- hypertension_rewards_with_sl.png  
-- hypertension_rewards_without_sl.png  
+- _diabetes_rewards_with_sl.png_  
+- _diabetes_rewards_without_sl.png_  
+- _hypertension_rewards_with_sl.png_  
+- _hypertension_rewards_without_sl.png_  
 
 ## Health Trajectories
-- diabetes_glucose_trajectory.png  
-- hypertension_bp_trajectory.png  
+- _diabetes_glucose_trajectory.png_  
+- _hypertension_bp_trajectory.png_  
 
 ## SL vs RL Comparisons
-- diabetes_sl_vs_nosl_comparison.png  
-- hypertension_sl_vs_nosl_comparison.png  
+- _diabetes_sl_vs_nosl_comparison.png_  
+- _hypertension_sl_vs_nosl_comparison.png_  
 
 ## Supervised Learning Performance
-- sl_performance_across_seeds.png  
-- sl_confusion_matrices.png  
+- _sl_performance_across_seeds.png_  
+- _sl_confusion_matrices.png_  
 
 ---
 
